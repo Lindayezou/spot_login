@@ -28,12 +28,12 @@ passport.deserializeUser(function(obj, done) {
 passport.use(new LocalStrategy(
   function(email, password, done) {
     User.findOne({ email: email }, function(err, user) {
-      console.log("********************PASSPORT*******************************************************************");
+      console.log("********************PASSPORT************************************");
       if (err) { return done(err); }
       if (!user) {
         return done(null, false, { message: 'Incorrect email.' });
       }
-      if (!user.validPassword(password)) {
+      if (!user.validatePassword(password)) {
         return done(null, false, { message: 'Incorrect password.' });
       }
       return done(null, user);
