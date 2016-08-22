@@ -1,0 +1,147 @@
+<!-- Navbar for home page -->
+<nav class="navbar purple darken-3">
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo"><img style="max-width:100px; margin-top: 7px;" src="images/logo2.png" /></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li>
+          <a href="#">
+              <i class="fa fa-facebook-square"></i>
+              Like
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <i class="fa fa-instagram"></i>
+              Follow
+          </a>
+      </li>
+        <li>
+          <a href="#">
+              <i class="fa fa-twitter"></i>
+              Tweet
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+
+<!-- Section of white space to seperate navbar and parallax glitch -->
+<div class="section purple lighten-3"></div>
+
+<!-- First parallax image with title and login -->
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="images/studyspot.jpg">
+  </div>
+
+    <!-- Title logo -->
+    <img class="displayed" src="images/logo2.png"/>
+
+      <!-- Slogon -->
+      <h4 class="motto" align="center" style="color:white;">
+        Mark. Explore. Hit.
+      </h4>
+
+          <div class="row center">
+            <h5 style="color:white;">
+                Login
+            </h5>
+
+            <div>
+
+              <!-- Login form -->
+              <form ng-submit="vm.login()">
+                <div>
+                  <label>Email</label>
+                  <input ng-model="vm.user.email">
+                </div>
+                <div>
+                  <label>Password</label>
+                  <input ng-model="vm.user.password">
+                </div>
+                <button>Submit</button>
+              </form>
+
+            </div>
+
+              <button ng-click="vm.showModal()">Create Account</button>
+
+            </div>
+      </div>
+</div>
+
+
+<!-- White Container with feature explination -->
+<div class="section purple lighten-3">
+    <div class="row container">
+
+
+        <div class="col s4">
+          <h1 align="center">Mark</h1>
+          <img class="logos" src="images/marklogo.png" />
+          <p align="center">Mark and set up spots to everyday places you visit.</p>
+        </div>
+        <div class="col s4">
+          <h1 align="center">Explore</h1>
+          <img class="logos" src="images/explorelogo.png" />
+          <p align="center">Explore your friends spots and find new areas to mark.</p>
+        </div>
+        <div class="col s4">
+          <h1 align="center">Hit</h1>
+          <img class="logos" src="images/hitlogo.png" />
+          <p align="center">Hit spots to when you visit them to let your frineds know if your around.</p>
+        </div>
+
+
+    </div>
+</div>
+
+
+<!-- Second parallax image -->
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="images/smokespot.jpg">
+  </div>
+</div>
+
+
+<!-- White space with types of spots -->
+  <div class="section purple lighten-3">
+      <div class="row container">
+
+        <div class="col s4">
+          <h1 align="center">Study Spot</h1>
+          <img class="logos" src="images/studyspotlogo.png" />
+          <!-- <p align="center">Mark and set up spots to everyday places you visit.</p> -->
+        </div>
+        <div class="col s4">
+          <h1 align="center">Smoke Spot</h1>
+          <img class="logos" src="images/smokespotlogo.png" />
+          <!-- <p align="center">Explore your friends spots and find new areas to mark.</p> -->
+        </div>
+        <div class="col s4">
+          <h1 align="center">Hangout Spot</h1>
+          <img class="logos" src="images/hangoutspotlogo.png" />
+          <!-- <p align="center">Hit spots to when you visit them to let your frineds know if your around.</p> -->
+        </div>
+
+      </div>
+  </div>
+
+
+<!-- Third parallax image -->
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="images/hangoutspot.jpg">
+  </div>
+</div>
+
+
+
+
+<footer class="page-footer purple darken-3">
+    <div class="container">
+      Powered by Google Maps
+    </div>
+</footer>

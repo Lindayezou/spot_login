@@ -1,0 +1,54 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "mpromise/mpromise.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "mongoose-promise/mongoose-promise.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "mongodb/mongodb.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "node/node.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "mongoose/mongoose.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "body-parser/body-parser.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "express/express.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "mime/mime.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "express-jwt/express-jwt.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "express-serve-static-core/express-serve-static-core.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "express-unless/express-unless.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "jsonwebtoken/jsonwebtoken.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "passport/passport.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    },
+    "passport-local/passport-local.d.ts": {
+      "commit": "80a8a6de5054d0907187e5fa3caf1f61f93b7092"
+    }
+  }
+}

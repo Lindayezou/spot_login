@@ -1,0 +1,25 @@
+{
+  "name": "thespot",
+  "version": "0.0.0",
+  "description": "TheSpot Application",
+  "scripts": {
+    "start": "node ./bin/www",
+    "devStart": "nodemon ./bin/www"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.1",
+    "dotenv": "^2.0.0",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "google-maps": "^3.2.1",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.5.9",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.3.0"
+  }
+}
